@@ -1,6 +1,7 @@
 package calculatrice;
 public interface CalculatorModelInterface {
 	public void add();
+	
 	public void substract();
 	
 	public void multiply();

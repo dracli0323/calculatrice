@@ -3,7 +3,10 @@ import java.util.Stack;
 
 public class calcul {
 public static void main (String[] args) {
-	System.out.println("Hello World");
+	Stack accu;
+	Stack MaListe;
+	
+	
 	}
 
 

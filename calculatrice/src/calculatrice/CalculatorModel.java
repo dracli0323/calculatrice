@@ -1,5 +1,7 @@
 package calculatrice;
+import java.util.Stack;
 public class CalculatorModel implements CalculatorModelInterface{
+
 	public void add() {
 	}
 
@@ -16,6 +18,8 @@ public class CalculatorModel implements CalculatorModelInterface{
 	}
 	
 	public void push() {
+
+
 	}
 	
 	public void pop() {
