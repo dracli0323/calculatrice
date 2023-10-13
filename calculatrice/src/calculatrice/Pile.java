@@ -26,4 +26,15 @@ public class Pile {
     	return this.num.empty();
     }
     
+    public void swap() {
+    	Double a=this.pop();
+    	Double b=this.pop();
+    	this.push(b);
+    	this.push(a);
+    }
+    public void clear() {
+    	while (this.estVide()==false){
+    		this.pop();
+    	}
+    }
 }
