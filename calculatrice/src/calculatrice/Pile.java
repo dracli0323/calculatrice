@@ -3,31 +3,27 @@ import java.util.Stack;
 
 
 public class Pile {
-    Stack<Integer> num;
+    Stack<Double> num;
 
     // Constructeur
     public Pile() {
         this.num = new Stack<>();
     }
 
-    public void push(Integer a) {
+    public void push(Double a) {
         this.num.push(a);
     }
     
-    public Integer pop() {
+    public Double pop() {
     	return this.num.pop();
     }
     
-    public Integer peek(){
+    public Double peek(){
     	return this.num.peek();
     }
     
     public boolean estVide() {
     	return this.num.empty();
-    }
-    
-    public Integer rechercher(Integer a) {
-    	return this.num.search(a);
     }
     
 }

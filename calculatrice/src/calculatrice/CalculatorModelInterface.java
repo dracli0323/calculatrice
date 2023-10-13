@@ -10,7 +10,7 @@ public interface CalculatorModelInterface {
 	
 	public void opposite();
 	
-	public void push();
+	public void push(Double a);
 	
 	public void pop();
 	
