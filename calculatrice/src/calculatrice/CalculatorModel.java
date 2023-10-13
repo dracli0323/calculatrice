@@ -64,6 +64,7 @@ public class CalculatorModel implements CalculatorModelInterface{
 	}
 	
 	public void drop() {
+		Maliste.peek();
 	}
 	
 	public void swap() {
