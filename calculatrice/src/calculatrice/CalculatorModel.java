@@ -68,9 +68,11 @@ public class CalculatorModel implements CalculatorModelInterface{
 	}
 	
 	public void swap() {
+		Maliste.swap();
 	}
 	
 	public void clear() {
+		Maliste.clear();
 	}
 	
 	
